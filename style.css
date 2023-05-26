@@ -2,6 +2,17 @@
      margin: 0;
 } */
 
+#input_40_1087_1_container,
+#input_40_1087_2_container, 
+#input_40_1087_3_container,
+#input_40_1088_1_container,
+#input_40_1088_2_container, 
+#input_40_1088_3_container {
+     width: 33.33%;
+}
+
+
+/* =============================================================================  */
 #gform_save_40_footer_link{
      display: none;
 }
