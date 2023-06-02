@@ -2089,6 +2089,36 @@
           
           });
           
+          // Alcohol
+          jQuery('#input_40_1115, #input_40_1116').change(function() {    
+               // Retrieve the age started and age ended values
+               var ageStarted = parseInt(jQuery('#input_40_1115').val());
+               console.log(ageStarted);  
+               var ageEnded = parseInt(jQuery('#input_40_1116').val());
+               console.log(ageEnded);  
+          
+               if (ageEnded < ageStarted) {
+                    //alert("Error: Age Ended must be greater than or equal to Age Started");
+          
+                    // Display an error message or take other appropriate action
+                    if ( jQuery('.age_start_end_error_msg').length ) {
+                         jQuery('.age_start_end_error_msg').remove();
+          
+                         jQuery('#input_40_1116').after('<p class="age_start_end_error_msg">' + age_start_end_error_msg + '</p>');
+                         jQuery("#input_40_1116").val(""); // Clear Age Ended input
+                    }
+                    else{
+                         jQuery('#input_40_1116').after('<p class="age_start_end_error_msg">' + age_start_end_error_msg + '</p>');
+                         jQuery("#input_40_1116").val(""); // Clear Age Ended input
+                    }
+                         
+               }
+               else{
+                    jQuery('.age_start_end_error_msg').remove();
+               }
+          
+          });
+          
           //============================================================================================
            // SUICICAL AND HUMICIADAL
            jQuery('#field_40_865 input[name="input_865"]').change(function() {
