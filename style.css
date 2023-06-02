@@ -115,7 +115,7 @@ div#gfield_description_40_883 {
       color: #fff !important;
       border:none !important;
  }
- 
+
 
  /* =============================================================================  */
   /* INPUT FILE UPLOAD */
@@ -319,7 +319,8 @@ div#gfield_description_40_883 {
  #input_40_786,
  #input_40_799,
  #input_40_1086,
- #input_40_1091{
+ #input_40_1091,
+ #input_40_1089{
      max-width: 30% !important;
      width: 30%;
  }
@@ -357,7 +358,8 @@ div#gfield_description_40_883 {
   #field_40_157,
   #field_40_880,
   #field_40_1086,
-  #field_40_1073{
+  #field_40_1073,
+  #field_40_1089 {
       text-align: center;
   }
   
